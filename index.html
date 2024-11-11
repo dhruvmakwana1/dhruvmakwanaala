@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <style>
+        /* General body styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e3f2fd; /* Light blue background */
+            color: #333;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        /* Centering content */
+        .content {
+            background-color: white;  /* White background for the content */
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 600px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #4CAF50;  /* Green color for the heading */
+        }
+
+        .details {
+            margin-top: 20px;
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+
+        .btn-container {
+            margin-top: 30px;
+        }
+
+        .btn {
+            background-color: #4CAF50;  /* Green background for buttons */
+            color: white;
+            padding: 15px 25px;
+            margin: 10px;
+            text-decoration: none;
+            font-size: 1.2em;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            display: inline-block;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: #45a049;  /* Darker green on hover */
+        }
+
+        /* Link container for "All Tasks" */
+        .all-tasks {
+            margin-top: 40px;
+            font-size: 1.2em;
+        }
+
+        .all-tasks a {
+            color: #4CAF50;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+
+        .all-tasks a:hover {
+            text-decoration: underline;
+        }
+    </style>
+    <script>
+        // Function to handle the button click events
+        function onButtonClick(page) {
+            alert("You clicked on " + page + " button!");
+        }
+    </script>
+</head>
+<body>
+
+    <div class="content">
+        <header>
+            <h1>Welcome to the Home Page</h1>
+        </header>
+
+        <div class="details">
+            <h2><strong>Name:</strong> Dhruv Makwana</h2>
+        <h2><strong>Enrollment No:</strong> 20230905090044</h2>
+        </div>
+
+        <!-- "All Tasks" Section with Links -->
+        <div class="all-tasks">
+            <p><strong>Visit all tasks:</strong></p>
+            <p>
+                <a href="task1.html" target="_blank">Task 1</a> |
+                <a href="task2.html" target="_blank">Task 2</a> |
+                <a href="task3.html" target="_blank">Task 3</a>
+            </p>
+        </div>
+    </div>
+
+</body>
+</html>
